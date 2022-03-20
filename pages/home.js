@@ -15,7 +15,7 @@ export default function SimplePaper() {
         console.log('Button clicked');
         console.log(text);
         let returnhere = await axios.post(`https://graph.facebook.com/890213457674962/feed?message=${text}&access_token=EAAH9A2QKKSwBAJbqxiGJ2BnfkuuM20r8CMahp8dkGd7ALvdXKXAwZAv2grhJQVKj8mT8JUvWhv4dwtaiiZCzKNLCqB0FJJUAqlTRZBopNoaROGQG0sbRhtXw3zJJ3vt5QZBZBHuSeAVwZA3qZCGHDw32KC0chrNVOP1v7vnFttFn9PqwfA0H6X3OJMPgSLiJod9KMm5L2mxbgZDZD`)
-        alert("Posted to Facebook", returnhere.data.id);
+        alert("Posted to Fadcebook", returnhere.data.id);
     }
     async function linkedinbuttonclicked(){
         console.log('Button clicked');
