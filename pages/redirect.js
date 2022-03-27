@@ -21,10 +21,10 @@ function  Redirect() {
             value.setLinkedinID(response.data.id);
             value.setLinkedinToken(response.data.localizedFirstName);
             value.setLinkedinState("success")
-            console.log(value);
-              router.push('/home');
+            
         })     
-        
+        console.log(value);
+        router.push('/home');
          
      })
     

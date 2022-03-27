@@ -7,7 +7,7 @@ export default async (req, res) => {
     "Content-Type": " application/x-www-form-urlencoded",
     grant_type: "authorization_code",
     code: req.body.code,
-    redirect_uri: "http://localhost:3000/redirect/",
+    redirect_uri: "https://socialsharenew.vercel.app/redirect/",
     client_id: "86efr9wh25ebu7",
     client_secret: "wUjjrCnm78Dx7Fl2",
   });
