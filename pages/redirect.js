@@ -4,6 +4,9 @@ import AppContext from "../AppContext";
 import { useEffect,useContext } from "react";
 import Link from "next/link";
   
+import React from 'react'
+
+
   
 function  redirect() {
     const { query } = useRouter();

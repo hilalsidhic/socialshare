@@ -3,7 +3,7 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import { useContext, useEffect } from "react";
 import AppContext from "../AppContext";
-
+import React from 'react'
 
 function twitterredirect() {
     const {query} = useRouter()
