@@ -8,7 +8,7 @@ import React from 'react'
 
 
   
-function  redirect() {
+function  Redirect() {
     const { query } = useRouter();
     const value = useContext(AppContext);
     const code = query.code;
@@ -35,4 +35,4 @@ function  redirect() {
     );
 }
 
-export default redirect;
+export default Redirect;

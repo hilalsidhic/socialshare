@@ -5,7 +5,7 @@ import { useContext, useEffect } from "react";
 import AppContext from "../AppContext";
 import React from 'react'
 
-function twitterredirect() {
+function Twitterredirect() {
     const {query} = useRouter()
     const value = useContext(AppContext);
     const router = useRouter()
@@ -36,4 +36,4 @@ function twitterredirect() {
     );
 }
 
-export default twitterredirect;
+export default Twitterredirect;
