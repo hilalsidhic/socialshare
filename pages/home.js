@@ -26,6 +26,7 @@ export default function SimplePaper() {
     );
     alert("Posted to Fadcebook", returnhere.data.id);
   }
+
   async function linkedinbuttonclicked() {
     console.log("Button clicked");
     console.log(text);
@@ -36,7 +37,7 @@ export default function SimplePaper() {
     } 
     else{
       window.location.href =
-      "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86efr9wh25ebu7&redirect_uri=https://socialsharenew.vercel.app/redirect/&state=foobar&scope=r_liteprofile%20r_emailaddress%20w_member_social";
+      "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86efr9wh25ebu7&redirect_uri=http://socialsharenew.vercel.app/redirect/&state=foobar&scope=r_liteprofile%20r_emailaddress%20w_member_social";
     }
     
   }
