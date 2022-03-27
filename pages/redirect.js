@@ -16,14 +16,15 @@ function  Redirect() {
     useEffect(() => {
         
         
-        axios.post('api/linkedin-auth',{code: code}).then(response => {
+         axios.post('api/linkedin-auth',{code: code}).then(response => {
             console.log(response.data);
             value.setLinkedinID(response.data.id);
             value.setLinkedinToken(response.data.localizedFirstName);
             value.setLinkedinState("success")
+            console.log(value);
+              router.push('/home');
         })     
-        console.log(value);
-        router.push('/home');
+        
          
      })
     
