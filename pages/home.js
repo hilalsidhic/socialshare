@@ -37,7 +37,7 @@ export default function SimplePaper() {
     } 
     else{
       window.location.href =
-      "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86efr9wh25ebu7&redirect_uri=http://localhost:3000/redirect/&state=foobar&scope=r_liteprofile%20r_emailaddress%20w_member_social";
+      "https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=86efr9wh25ebu7&redirect_uri=https://socialsharenew.vercel.app/redirect/&state=foobar&scope=r_liteprofile%20r_emailaddress%20w_member_social";
     }
     
   }
